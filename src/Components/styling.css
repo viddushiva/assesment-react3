@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(aqua,pink,orange,indigo);
+    height: 100vh;
+}
+
+.firstbox {
+    margin-left: 30%;
+}
+#name{
+    margin: 10px;
+    margin-left: 4%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#department{
+    margin: 10px;
+    margin-left: 1%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#rating{
+    margin: 10px;
+    margin-left: 4%;
+
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 40px;
+    background-color: aqua;
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 25%;
+}
+
+button:hover {
+    background: blue;
+    background: aquamarine;
+    color: white;
+}
+#submit {
+    margin-top: 40px;
+    background-color: sienna;
+    height: 40px;
+    width: 150px;
+    border: 2px solid none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+buttone:hover {
+    background: blue;
+    background: aquamarine;
+    color: white;
+}
+
+.div1 {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+   
+    background-color: pink;
+   border-radius: 10px;
+
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid black;
+}
